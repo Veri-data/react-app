@@ -2,7 +2,7 @@ name: AccuKnox DAST Scan Workflow
 on:
   push:
     branches:
-      - main
+      - '**'
 
 jobs:
   dast-scan:

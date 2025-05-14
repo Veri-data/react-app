@@ -2,10 +2,10 @@ name: AccuKnox Opengrep SAST
 on:
   push:
     branches:
-      - main
+      - '**'
   pull_request:
     branches:
-      - main
+      - '**'
 
 jobs:
   accuknox-cicd:
